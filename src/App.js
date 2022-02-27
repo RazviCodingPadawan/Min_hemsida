@@ -42,7 +42,8 @@ function App() {
         <a className='footer-link' href='https://www.linkedin.com'>LinkedIn</a>
         <a className='footer-link' href='https://www.twitter.com'>Twitter</a>
         <a className='footer-link' href='https://www.appbrewery.com'>Website</a>
-        <p className='copyright'>Georgescu D. Razvan</p>
+        <p class="copyright"><i class="fa-regular fa-copyright"></i> Georgescu D. Razvan.</p>
+        {/* <p class="copyright">© Georgescu D. Razvan.</p> */}
       </div>
     </div>
   );
