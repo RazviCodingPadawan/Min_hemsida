@@ -11,7 +11,6 @@ function App() {
             <Link to="/skills">Skills </Link>
             <Link to="/contact">Contact Me </Link>
           </ul>
-
       </header>
       <div className='top-container'>
         <h1>I'm Razvan.</h1>
