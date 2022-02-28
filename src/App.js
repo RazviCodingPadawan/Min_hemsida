@@ -4,6 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <header>
+          <ul className='navigation'>
+            <Link to="/aboutme">About Me </Link>
+            <Link to="/hobbies">My Hobbies </Link>
+            <Link to="/skills">Skills </Link>
+            <Link to="/contact">Contact Me </Link>
+          </ul>
+
+      </header>
       <div className='top-container'>
         <h1>I'm Razvan.</h1>
         <h2>a programmer padawan</h2>
@@ -12,8 +21,6 @@ function App() {
         <div className='profile'>
           <h2>Hello</h2>
           <p className='intro'>Scurta introducere despre mine</p>
-          <Link to="/aboutme">About Me </Link>
-          <Link to="/hobbies">My Hobbies </Link>
           <hr/>
         </div>
         <div className='skills'>
@@ -25,8 +32,7 @@ function App() {
           <div className='skill-row'> 
             <h3>Skill 2</h3>
             <p>descriere skill 2</p>
-          </div>
-          <Link to="/skills">Skills </Link>
+          </div> 
         </div>
         <hr/>
         <div className='contact-me'>
@@ -35,14 +41,14 @@ function App() {
           <p className='contact-message'>
             text funny de contact
           </p>
-          <Link className='btn' to="/contact">Contact Me </Link>
         </div>
       </div>
       <div className='bottom-container'>
-        <a className='footer-link' href='https://www.linkedin.com'>LinkedIn</a>
-        <a className='footer-link' href='https://www.twitter.com'>Twitter</a>
-        <a className='footer-link' href='https://www.appbrewery.com'>Website</a>
-        <p class="copyright"><i class="fa-regular fa-copyright"></i> Georgescu D. Razvan.</p>
+        <a className='footer-link' href='https://www.linkedin.com/feed/'><i class="fa-brands fa-linkedin"></i></a>
+        <a className='footer-link' href='https://www.facebook.com/'><i class="fa-brands fa-facebook"></i></a>
+        <a className='footer-link' href='https://www.instagram.com/'><i class="fa-brands fa-instagram"></i></a>
+        <button className='scroll-upp-btn' onClick={() => {window.scrollTo({top:0, behavior: "smooth"})}}><i class="fa-solid fa-arrow-up"></i></button>
+        <p class="copyright"><i class="fa-regular fa-copyright"></i> Georgescu D. Razvan</p>
         {/* <p class="copyright">© Georgescu D. Razvan.</p> */}
       </div>
     </div>

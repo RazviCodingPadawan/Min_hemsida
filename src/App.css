@@ -41,7 +41,7 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -63,16 +63,6 @@ h3 {
   margin: 40px auto 60px;
 }
 
-.btn {
-  background-color: #11cdd4;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
 .bottom-container {
   background-color: #66bfbf;
   padding: 50px 0 20px;
@@ -80,10 +70,47 @@ h3 {
 
 a {
   margin: 10px 20px;
+  font-size: large;
+  text-decoration: none;
 }
 
 .copyright {
-  color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.scroll-upp-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.scroll-upp-btn:hover,
+.footer-link:hover {
+  font-size: 1.5rem;
+}
+
+hr,
+.copyright,
+.scroll-upp-btn,
+.footer-link {
+  color: #EAF6F6;
+}
+
+a {
+  color: #66BFBF;
+  font-size: 1rem;
+}
+a:hover {
+  color: #11999E;
+}
+
+header {
+  background-color: #e4f9f5;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 640px) {
+
 }
