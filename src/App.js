@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <header>
@@ -43,11 +44,11 @@ function App() {
         </div>
       </div>
       <div className='bottom-container'>
-        <a className='footer-link' href='https://www.linkedin.com/feed/'><i class="fa-brands fa-linkedin"></i></a>
-        <a className='footer-link' href='https://www.facebook.com/'><i class="fa-brands fa-facebook"></i></a>
-        <a className='footer-link' href='https://www.instagram.com/'><i class="fa-brands fa-instagram"></i></a>
+        <a className='footer-link' href='https://www.linkedin.com/feed/'><i className="fa-brands fa-linkedin"></i></a>
+        <a className='footer-link' href='https://www.facebook.com/'><i className="fa-brands fa-facebook"></i></a>
+        <a className='footer-link' href='https://www.instagram.com/'><i className="fa-brands fa-instagram"></i></a>
         <button className='scroll-upp-btn' onClick={() => {window.scrollTo({top:0, behavior: "smooth"})}}><i class="fa-solid fa-arrow-up"></i></button>
-        <p class="copyright"><i class="fa-regular fa-copyright"></i> Georgescu D. Razvan</p>
+        <p className="copyright"><i className="fa-regular fa-copyright"></i> Georgescu D. Razvan</p>
         {/* <p class="copyright">© Georgescu D. Razvan.</p> */}
       </div>
     </div>
