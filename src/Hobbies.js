@@ -1,6 +1,15 @@
+import { Link } from 'react-router-dom';
 const Hobbies = () => {
     return (
         <div>
+            <header>
+                <ul className='navigation'>
+                    <Link to="/">Home </Link>
+                    <Link to="/aboutme">About Me </Link>
+                    <Link to="/skills">Skills </Link>
+                    <Link to="/contact">Contact Me </Link>
+                </ul>
+            </header>
             <h1>My Hobbies</h1>
             <div className='bottom-container' style={{position: 'fixed', bottom: '0', width: '100%'}}>
                 <a className='footer-link' href='https://www.linkedin.com/feed/'><i class="fa-brands fa-linkedin"></i></a>
