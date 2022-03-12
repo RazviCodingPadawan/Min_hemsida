@@ -188,6 +188,11 @@ input {
   font-size: large;
 }
 
+.description, .hobbies {
+  width: 75%;
+  text-align: left;
+  margin: auto;
+}
 
 @media only screen and (max-width: 640px) {
 

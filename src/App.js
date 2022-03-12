@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <button className='jedi' onClick={() => setDarkMode(!darkMode)}>Welcome to the Dark Side</button>
+        <button className='jedi' onClick={() => setDarkMode(!darkMode)}>Welcome to the Dark Side <i className="fa-brands fa-sith"></i></button>
           <ul className='navigation'>
             <Link to="/aboutme">About Me </Link>
             <Link to="/hobbies">My Hobbies </Link>
@@ -26,31 +26,22 @@ function App() {
       </header>
       <div className='top-container'>
         <h1>I'm Razvan.</h1>
-        <h2>a programmer padawan</h2>
+        <h2>a programmer padawan <i className="fa-brands fa-jedi-order"></i></h2>
       </div>
       <div className='middle-container'>
         <div className='profile'>
           <h2>Hello</h2>
-          <p className='intro'>Scurta introducere despre mine</p>
+          <p className='intro'>Hello. I am a frontend student with focus on webb security</p>
           <hr/>
-        </div>
-        <div className='skills'>
-          <h2>My Skills</h2>
-          <div className='skill-row'> 
-            <h3>Skill 1</h3>
-            <p>descriere skill 1</p>
-          </div>
-          <div className='skill-row'> 
-            <h3>Skill 2</h3>
-            <p>descriere skill 2</p>
-          </div> 
         </div>
         <hr/>
         <div className='contact-me'>
           <h2>Get In Touch</h2>
-          <h3>titlu de contact</h3>
+          <h3>let's connect</h3>
+          <Link to="/contact">Contact Me </Link>
           <p className='contact-message'>
-            text funny de contact
+            <b>I'm Broke</b>. So when I say <i>"Call me if you need anything"</i>, 
+            I'm refering to hugs, prayer or words of encouragement. You know... the free stuff.
           </p>
         </div>
       </div>
