@@ -18,6 +18,7 @@ const Contact = () => {
 
     return (
         <div>
+
             <header>
                 <ul className='navigation'>
                     <Link to="/">Home </Link>
@@ -27,7 +28,6 @@ const Contact = () => {
                 </ul>
             </header>
 
-            {/* tutorial gasit pe net */}
             <form onSubmit={handleSubmit}>
                 <div>
                     <h1>Contact me</h1>
@@ -54,6 +54,7 @@ const Contact = () => {
                 <p className="copyright"><i className="fa-regular fa-copyright"></i> Georgescu D. Razvan</p>
                 {/* <p class="copyright">© Georgescu D. Razvan.</p> */}
             </div>
+            
         </div>
     )
 }

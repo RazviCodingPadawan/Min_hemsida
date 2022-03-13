@@ -34,7 +34,6 @@ function App() {
           <p className='intro'>Hello. I am a frontend student with focus on webb security</p>
           <hr/>
         </div>
-        <hr/>
         <div className='contact-me'>
           <h2>Get In Touch</h2>
           <h3>let's connect</h3>
