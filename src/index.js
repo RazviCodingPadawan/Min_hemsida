@@ -11,9 +11,9 @@ import Contact from './Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/min-hemsida">
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route exact path="/" element={<App />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/hobbies" element={<Hobbies />} />
